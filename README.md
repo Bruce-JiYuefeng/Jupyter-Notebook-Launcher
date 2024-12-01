@@ -26,5 +26,6 @@
    git clone https://github.com/Bruce-JiYuefeng/Jupyter-Notebook-Launcher.git
    cd Jupyter-Notebook-Launcher
 2. If you want to create a new exe file. run the command: 
-        windres resource.rc -O coff -o resource.o
-        g++ "jupyter notebook.cpp" resource.o -o "jupyter notebook.exe" -mwindows
+    ```bash
+    windres resource.rc -O coff -o resource.o
+    g++ "jupyter notebook.cpp" resource.o -o "jupyter notebook.exe" -mwindows
